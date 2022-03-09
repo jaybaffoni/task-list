@@ -1,7 +1,11 @@
+import Task from "./components/task";
+
 function App() {
   return (
-    <div>
-      <h1>Task List App</h1>
+    <div style={{padding: 12, backgroundColor: '#e1e1e1'}}>
+      <Task title={"Wash the dishes"} completed={false}/>
+      <Task title={"Wash the dog"} completed={false}/>
+      <Task title={"Wash the car"} completed={true}/>
     </div>
   );
 }
